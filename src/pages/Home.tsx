@@ -1,6 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { PlusCircle, List } from 'lucide-react';
+import { List, PlusCircle } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
@@ -11,16 +10,16 @@ const Home = () => {
           Coleção de Moedas Hereditárias
         </h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Uma jornada através do tempo, preservando a história e o legado numismático 
-          passado de geração em geração. Cada moeda conta uma história única e 
-          carrega consigo memórias preciosas.
+          Uma jornada através do tempo, preservando a história e o legado
+          numismático passado de geração em geração. Cada moeda conta uma
+          história única e carrega consigo memórias preciosas.
         </p>
       </div>
 
       {/* Featured Image */}
       <div className="relative h-96 mb-16 rounded-lg overflow-hidden shadow-xl">
         <img
-          src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&q=80&w=1920"
+          src=""
           alt="Coleção de moedas antigas"
           className="w-full h-full object-cover"
         />
@@ -52,8 +51,8 @@ const Home = () => {
             Catalogação Detalhada
           </h3>
           <p className="text-gray-600">
-            Registre informações completas sobre cada moeda, incluindo ano, país, 
-            valor e o importante índice AIFNS.
+            Registre informações completas sobre cada moeda, incluindo ano,
+            país, valor e o importante índice AIFNS.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
@@ -61,7 +60,7 @@ const Home = () => {
             Gestão Simplificada
           </h3>
           <p className="text-gray-600">
-            Interface intuitiva para adicionar, editar e organizar sua coleção 
+            Interface intuitiva para adicionar, editar e organizar sua coleção
             de forma eficiente e prática.
           </p>
         </div>
@@ -70,13 +69,13 @@ const Home = () => {
             Preservação Histórica
           </h3>
           <p className="text-gray-600">
-            Mantenha viva a história e o valor sentimental de cada peça da 
+            Mantenha viva a história e o valor sentimental de cada peça da
             coleção para as futuras gerações.
           </p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
