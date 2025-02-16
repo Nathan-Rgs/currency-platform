@@ -31,12 +31,3 @@ A aplicação permite **cadastrar, editar, visualizar e excluir moedas**, além 
 - (Opcional) SQLAlchemy + Banco de Dados (SQLite/PostgreSQL)
 
 ---
-
-## 📦 Instalação e Configuração
-
-### 1️⃣ Clonando o Repositório
-
-```bash
-git clone https://github.com/seu-usuario/gestao-de-moedas.git
-cd gestao-de-moedas
-```
